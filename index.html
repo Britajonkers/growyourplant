@@ -1,0 +1,68 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <label for="progressbar1">Health:</label>
+    <progress id="progressbar1" max="100" value="0">0%</progress>
+
+    Images for buttons -->
+    <!-- <ul>
+        <li><img class="knoppen" id="waterknop" src="IMG/watergeven.png" alt="water knop"></li>
+        <li><img class="knoppen" id="voedingknop" src="IMG/voedinggeven.png" alt="voeding knop"></li>
+        <li><img class="knoppen" id="zonknop" src="IMG/zonknop.png" alt="zon knop"></li>
+    </ul>
+
+     Image for the plant -->
+    <!-- <div class="plantenvak">
+        <img id="plant1" src="IMG/plant1.png" alt="Plant Image 1">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> --> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="plantverzorgen">
+
+   
+
+   <!-- bron voor flexbox: https://chatgpt.com/share/fb94eb16-5e69-4725-9bea-c897c310842b -->
+    <div class="container">
+        <div class="sidebar">
+            <label for="progressbar1"></label>
+            <progress id="progressbar1" max="100" value="0">0%</progress>
+        </div>
+        <div class="main">
+            <div class="plantenvak">
+                <img id="plant1" src="IMG/plant1.png" alt="Plant Image 1">
+            </div>
+        </div>
+        <div class="buttons">
+            <ul>
+                <li><img class="knoppen" id="waterknop" src="IMG/watergeven.png" alt="water knop"></li>
+                <li><img class="knoppen" id="voedingknop" src="IMG/voedinggeven.png" alt="voeding knop"></li>
+                <li><img class="knoppen" id="zonknop" src="IMG/zonknop.png" alt="zon knop"></li>
+            </ul>
+        </div>
+    </div>
+
+    <audio id="watersound" src="audio/wateringsound.mp3"></audio> 
+    <audio id="voedingsound" src="audio/voedingsound.mp3"></audio> 
+    <audio id="zonsound" src="audio/sunsound.mp3"></audio> 
+
+    <script src="script.js"></script>
+</body>
+</html>
